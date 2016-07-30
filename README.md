@@ -242,7 +242,7 @@ Syntax:
 ```javascript
 conditionToTest ? valueToBeReturnedIfTrue : valueToBeReturnedIfFalse
 ```
-
+**It would be helpful if there was an example given after the syntax**
 + Define a function `ternaryTeenager` that accepts age as a parameter. The body of the function should use the ternary operator to return `"You are a teenager"` if age is between 13-19 and returns `"You are not a teenager"` if the age is anything else.
 
 ## Switch Statements
