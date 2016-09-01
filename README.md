@@ -240,7 +240,7 @@ This operator tests a condition; if the condition is truthy, it evaluates the le
 Syntax:
 
 ```javascript
-conditionToTest ? valueToBeReturnedIfTrue : valueToBeReturnedIfFalse
+return conditionToTest ? valueToBeReturnedIfTrue : valueToBeReturnedIfFalse
 ```
 
 + Define a function `ternaryTeenager` that accepts age as a parameter. The body of the function should use the ternary operator to return `"You are a teenager"` if age is between 13-19 and returns `"You are not a teenager"` if the age is anything else.
