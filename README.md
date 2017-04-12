@@ -274,7 +274,7 @@ Example:
 
 ```javascript
 var mood = "hungry"
-switch(mood) {
+switch(sad) {
   case "happy":
     console.log("Dance to Pharrell's 'Happy'");
     break;
