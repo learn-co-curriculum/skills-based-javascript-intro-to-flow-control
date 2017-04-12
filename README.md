@@ -138,6 +138,7 @@ if (something) {
 
 They work as the name implies: _if_ `something` is _truthy_ (so the boolean `true` or anything other than the empty string (`''`), `0`, `null`, or `undefined`), the code in between the curly braces runs; if not, the code between the curly braces is skipped.
 
+**IN LEARN** 
 Now, in `flow-control.js` let's write a function called `basicTeenager` that accepts an age as a parameter. The function should contain an if-statement that checks to see if the age is a teenager. If the age is between 13 and 19, return `"You are a teenager!"`
 
 ### `if`-`else` Statements
@@ -154,6 +155,7 @@ if (conditionToTest) {
 }
 ```
 
+**IN LEARN**
 + Define a function `teenager` that accepts an age as a parameter. If the age is between 13 and 19 it should return `"You are a teenager!"`. Otherwise, the function should return `"You are not a teenager"`.
 
 ### `if`/`else if` Statements
@@ -180,6 +182,7 @@ if (conditionToTest1) {
 }
 ```
 
+**IN LEARN**
 + Define a function `ageChecker` that takes in an age as a parameter. If the age is between 13-19 it should return `"You are a teenager!"`. If the age is 12 or below, it should return `"You are a kid"`. If the age is above 19, it should return `"You are a grownup"`
 
 **Top tip**: Remember, if you place a `return` statement before the end of the function, anything after `return` **won't get executed**. We can use this to make code terser:
@@ -243,6 +246,7 @@ Syntax:
 conditionToTest ? valueToBeReturnedIfTrue : valueToBeReturnedIfFalse
 ```
 
+**IN LEARN**
 + Define a function `ternaryTeenager` that accepts age as a parameter. The body of the function should use the ternary operator to return `"You are a teenager"` if age is between 13-19 and returns `"You are not a teenager"` if the age is anything else.
 
 **Top tip**: In order for the function to actually **return** the evaluation of the ternary operator, you'll need to prepend `return` to the expression:
