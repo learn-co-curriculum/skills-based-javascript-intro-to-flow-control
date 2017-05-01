@@ -120,6 +120,8 @@ JavaScript will return 'alphabet', because it needs to evaluate the right-hand s
 
 JavaScript simply returns `true` — it doesn't even check the right-hand side of `||`.
 
+*Note* : In case you were wondering, this is known as [Short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
+
 ## Controlling the flow of our programs
 
 JavaScript lets us control what blocks of code to execute using `if` statements, `if`-`else` statements, `if`-`else if`-`else` statements, ternary operators, and `switch` statements.
