@@ -80,7 +80,7 @@ parseInt('5', 10) === 5 // true
 
 ## Combining Comparisons
 
-We can string together these comparisons using `&&` (pronounced "and") and `||` ("or"):
+We can combine these comparisons together using `&&` (pronounced "and") and `||` ("or"):
 
 ``` javascript
 5 === 5 && 10 < 11 // true
@@ -176,7 +176,7 @@ if (conditionToTest1) {
 } else if (conditionToTest2) {
   // execute this code if `conditionToTest1` statement is falsey AND `conditionToTest2` is truthy
 } else {
-  // execute this code iff none of the other conditions are met
+  // execute this code if none of the other conditions are met
 }
 ```
 
@@ -325,3 +325,6 @@ _block_ and does not (generally speaking) have a value associated with it.
 * [Codecademy - Switch Statements](http://www.codecademy.com/glossary/javascript/switch-statements)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/skills-based-javascript-intro-to-flow-control'>JavaScript Flow Control</a> on Learn.co and start learning to code for free.</p>
+
+
+hii
